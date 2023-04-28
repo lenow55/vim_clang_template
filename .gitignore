@@ -1,0 +1,5 @@
+tags
+.cache/**
+.git
+compile_commands.json
+build/**

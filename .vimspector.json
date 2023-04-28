@@ -1,0 +1,13 @@
+{
+  "configurations": {
+     "CPP: Run current script": {
+      "adapter": "vscode-cpptools",
+      "configuration": {
+        "request": "launch",
+        "program": "./build/bin_tree",
+        "args": [ "*${args:--update-gadget-config}" ],
+            "justMyCode#json​": "${justMyCode:true}"
+          }
+        }
+    }
+}
